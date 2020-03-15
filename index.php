@@ -2,11 +2,7 @@
 
 
 
-
-
-   <h1>Ecole Supérieur De Technologie Sidi Bennour</h1>
+   <!-- <h1 id="txt">Ecole Supérieur De Technologie Sidi Bennour</h1> -->
    
-
-
-
+   
 <?php get_footer(); ?>  
