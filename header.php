@@ -3,7 +3,7 @@
 <head>
   
   <title> ESTsb </title>
-  <link rel="icon" type="image/png" href="img/estlogo.png" />
+  <link rel="icon" type="image/png" href="estlogo.png" />
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,24 +17,22 @@
 
 
 <body>
+
+<a href="index.php"><img src="estsb.png"></a>
+
 <div id='cssmenu'>
 <ul class="logo-navbar">
 </ul>
 <ul>
-   <li><a href='#'><span>Home</span></a></li>
-   <li class='has-sub'><a href='#'><span>Products</span></a>
+   <li><a href='#'><span>Acceuil</span></a></li>
+   <li class='has-sub'><a href='#'><span>Présentation</span></a>
       <ul>
          <li><a href='#'><span>Sub Product</span></a></li>
-         <li class='has-sub'><a href='#'><span>Product 1</span></a>
-            <ul>
-               <li><a href='#'><span>Sub Product</span></a></li>
-               <li class='last'><a href='#'><span>Sub Product</span></a></li>
-            </ul>
-         </li>
+         <li class='has-sub'><a href='#'><span>Product 1</span></a></li>
       </ul>
    </li>
-   <li><a href='#'><span>About</span></a></li>
-   <li class='last'><a href='#'><span>Contact</span></a></li>
+   <li><a href='#'><span>Formation</span></a></li>
+   <li class='last'><a href='#'><span>Recherche</span></a></li>
 </ul>
 </div>
 
