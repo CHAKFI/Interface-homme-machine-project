@@ -19,7 +19,7 @@
   <a href="index.php"><img style="margin-left: 1020px;" src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
   <img align='left' style="margin-left: -20px;" src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img>
    
-  
+   <!-- navbar réf: http://www.estsb.ucd.ac.ma -->
 <div id='cssmenu'>
 
 <ul class="logo-navbar">
