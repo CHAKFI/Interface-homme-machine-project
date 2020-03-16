@@ -16,26 +16,55 @@
 <body>
 
  
-  <a href="index.php"><img style="margin-left: 1000px;" src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
+  <a href="index.php"><img style="margin-left: 1020px;" src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
   <img align='left' style="margin-left: -20px;" src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img>
 
 <div id='cssmenu'>
+
 <ul class="logo-navbar">
 </ul>
+
 <ul>
-   <li><a href='#'><span>Acceuil</span></a></li>
+
+   <li><a href='index.php'><span>Acceuil</span></a></li>
    <li class='has-sub'><a href='#'><span>Présentation</span></a>
       <ul>
-         <li><a href='#'><span>Sub Product</span></a></li>
-         <li class='has-sub'><a href='#'><span>Product 1</span></a></li>
+         <li><a href='#'><span>Présentation</span></a></li>
+         <li><a href='#'><span>Mot du directeur</span></a></li>
+         <li><a href='#'><span>ESTSB en chiffres</span></a></li>
       </ul>
    </li>
-   <li><a href='#'><span>Formation</span></a></li>
-   <li class='last'><a href='#'><span>Recherche</span></a></li>
+
+   <li class='has-sub'><a href='#'><span>Formation</span></a>
+    <ul>
+         <li><a href='#'><span>Formation intial</span></a></li>
+         <li><a href='#'><span>Formation secondaire</span></a></li>
+    </ul>
+   </li>
+
+   <li class='has-sub'><a href='#'><span>Recherche</span></a>
+    <ul>
+         <li><a href='#'><span>Structures de recherche</span></a></li>
+         <li><a href='#'><span>Centre des études Doctorales</span></a></li>
+    </ul>
+   </li>
+
+   <li><a href='#'><span>Activités</span></a></li>
+   <li><a href='#'><span>Carrières</span></a></li>
+
+   <li class='has-sub'><a href='#'><span>Calendrier</span></a>
+    <ul>
+         <li><a href='#'><span>Stage</span></a></li>
+         <li><a href='#'><span>Emploi</span></a></li>
+    </ul>
+   </li>
+
+   <li class='last'><a href='#'><span>Contact</span></a></li>
+
 </ul>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 </body>
 <script>
 ( function( $ ) {
