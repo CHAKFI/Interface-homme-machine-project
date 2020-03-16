@@ -5,18 +5,19 @@
   body {
     background-image: url("img/bg1.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;   
     background-size: 1380px 800px;
   } 
 
+  
+  
 #cssmenu {
   position: fixed;
-  background-color:rgba(0, 0, 0, 0.45);
+  background-color:rgba(0, 0, 40, 0.45);
   margin: 0;
   width: auto;
   padding: 0;
-  line-height: 0.5;
+  line-height: 1;
   display: block;
   position: relative;
   font-family: 'PT Sans', sans-serif;
