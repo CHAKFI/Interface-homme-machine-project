@@ -15,10 +15,9 @@
 
 </head>
 
-
 <body>
 
-<a href="index.php"></a>
+<a href="index.php"><img  src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></<img></a>
 
 <div id='cssmenu'>
 <ul class="logo-navbar">
@@ -56,6 +55,3 @@
 
 </script>
 </html>
-
-
-
