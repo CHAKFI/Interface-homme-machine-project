@@ -15,9 +15,9 @@
 
 <body>
 
-
-  <a align='right' href="index.php"><img  src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
-  <img  src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img>
+ 
+  <a href="index.php"><img style="margin-left: 1000px;" src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
+  <img align='left' style="margin-left: -20px;" src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img>
 
 <div id='cssmenu'>
 <ul class="logo-navbar">
