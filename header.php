@@ -15,10 +15,11 @@
 
 <body>
 
- 
+   <!-- les logos -->
   <a href="index.php"><img style="margin-left: 1020px;" src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
   <img align='left' style="margin-left: -20px;" src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img>
-
+   
+  
 <div id='cssmenu'>
 
 <ul class="logo-navbar">
@@ -29,37 +30,37 @@
    <li><a href='index.php'><span>Acceuil</span></a></li>
    <li class='has-sub'><a href='#'><span>Présentation</span></a>
       <ul>
-         <li><a href='#'><span>Présentation</span></a></li>
-         <li><a href='#'><span>Mot du directeur</span></a></li>
-         <li><a href='#'><span>ESTSB en chiffres</span></a></li>
+         <li><a href='/Prest.php'><span>Présentation</span></a></li>
+         <li><a href='/mdd.php'><span>Mot du directeur</span></a></li>
+         <li><a href='/est_chf.php'><span>ESTSB en chiffres</span></a></li>
       </ul>
    </li>
 
    <li class='has-sub'><a href='#'><span>Formation</span></a>
     <ul>
-         <li><a href='#'><span>Formation intial</span></a></li>
-         <li><a href='#'><span>Formation secondaire</span></a></li>
+         <li><a href='/fi.php'><span>Formation intial</span></a></li>
+         <li><a href='/fs.php'><span>Formation secondaire</span></a></li>
     </ul>
    </li>
 
    <li class='has-sub'><a href='#'><span>Recherche</span></a>
     <ul>
-         <li><a href='#'><span>Structures de recherche</span></a></li>
-         <li><a href='#'><span>Centre des études Doctorales</span></a></li>
+         <li><a href='/'><span>Structures de recherche</span></a></li>
+         <li><a href='/'><span>Centre des études Doctorales</span></a></li>
     </ul>
    </li>
 
-   <li><a href='#'><span>Activités</span></a></li>
-   <li><a href='#'><span>Carrières</span></a></li>
-
-   <li class='has-sub'><a href='#'><span>Calendrier</span></a>
+   <li><a href='/'><span>Activités</span></a></li>
+   <li class='has-sub'><a href='/'><span>Carrières</span></a>
     <ul>
-         <li><a href='#'><span>Stage</span></a></li>
-         <li><a href='#'><span>Emploi</span></a></li>
+         <li><a href='/stg.php'><span>Stage</span></a></li>
+         <li><a href='/emp.php'><span>Emploi</span></a></li>
     </ul>
    </li>
 
-   <li class='last'><a href='#'><span>Contact</span></a></li>
+   <li><a href='#'><span>Calendrier</span></a></li>
+
+   <li class='last'><a href='/contact.php'><span>Contact</span></a></li>
 
 </ul>
 </div>
