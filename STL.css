@@ -7,10 +7,11 @@
     background-size: 1380px 800px;
   } 
   
-
   #estsb {
      float: right;
+     border-style: outset ;
   }
+
   
 #cssmenu {
   position: fixed;
@@ -23,7 +24,7 @@
   position: relative;
   font-family: 'PT Sans', sans-serif;
   border-style: groove;
-  border-bottom: brown;
+ 
 }
 
 #cssmenu ul {

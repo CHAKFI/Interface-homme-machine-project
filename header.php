@@ -66,6 +66,41 @@
 
 </ul>
 </div>
+ 
+
+<br><br><br>
+
+ <!-- Le centre de site web -->
+        <div align="center" >
+                     <a href="pub1.html">
+                     	<img style="border-style: dotted; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/pub1.jpg" style="width:50%">
+                     </a>
+                     <a href="pub2.html">
+                     	<img style="border-style: dotted; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/pub2.jpg" style="width:50%">
+                     </a>
+                     <a href="pub3.html">
+                     	<img style="border-style: dotted; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/pub3.jpg" style="width:50%">
+                     </a>
+        </div>    
+                      
+                           <!--JavaScript-->
+                             <script>
+                           var myIndex = 0;
+                           carousel();
+                    function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                       x[i].style.display = "none";  
+                         }
+                       myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                       x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2000); 
+                         }
+                             </script>
+
+<br><br><br>
 
 
 </body>
