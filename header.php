@@ -16,12 +16,14 @@
 <body>
 
    <!-- les logos -->
-  <a href="index.php"><img style="margin-left: 1020px;" src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
-  <img align='left' style="margin-left: -20px;" src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img>
-   
+   <div>
+   <a href="http://www.ucd.ac.ma"><img id='ucd' src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img></a>
+   <a href="index.php"><img id='estsb' src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
+   </div>
+
+
    <!-- navbar réf: http://www.estsb.ucd.ac.ma -->
 <div id='cssmenu'>
-
 <ul class="logo-navbar">
 </ul>
 
@@ -45,20 +47,20 @@
 
    <li class='has-sub'><a href='#'><span>Recherche</span></a>
     <ul>
-         <li><a href='/'><span>Structures de recherche</span></a></li>
-         <li><a href='/'><span>Centre des études Doctorales</span></a></li>
+         <li><a href='/sdr.php'><span>Structures de recherche</span></a></li>
+         <li><a href='/ced.php'><span>Centre des études Doctorales</span></a></li>
     </ul>
    </li>
 
-   <li><a href='/'><span>Activités</span></a></li>
-   <li class='has-sub'><a href='/'><span>Carrières</span></a>
+   <li><a href='/actv.php'><span>Activités</span></a></li>
+   <li class='has-sub'><a href='#'><span>Carrières</span></a>
     <ul>
          <li><a href='/stg.php'><span>Stage</span></a></li>
          <li><a href='/emp.php'><span>Emploi</span></a></li>
     </ul>
    </li>
 
-   <li><a href='#'><span>Calendrier</span></a></li>
+   <li><a href='cal.php'><span>Calendrier</span></a></li>
 
    <li class='last'><a href='/contact.php'><span>Contact</span></a></li>
 

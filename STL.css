@@ -6,7 +6,11 @@
     background-attachment: fixed;   
     background-size: 1380px 800px;
   } 
+  
 
+  #estsb {
+     float: right;
+  }
   
   
 #cssmenu {
@@ -19,9 +23,12 @@
   display: block;
   position: relative;
   font-family: 'PT Sans', sans-serif;
+  border-style: groove;
+  border-bottom: brown;
 }
+
 #cssmenu ul {
-  float: left;
+  float: right;
   list-style: none;
   margin: 0;
   padding: 0;
