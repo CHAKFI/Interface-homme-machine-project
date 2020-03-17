@@ -69,36 +69,74 @@
  
 
 <br><br><br>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
- <!-- Le centre de site web -->
- <div align="center" >
-                     <a href="pub1.html">
-                     	<img style="border-style: groove; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/p1.jpg" style="width:50%">
-                     </a>
-                     <a href="pub2.html">
-                     	<img style="border-style: groove; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/p2.jpg" style="width:50%">
-                     </a>
-                     <a href="pub3.html">
-                     	<img style="border-style: groove; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/p3.jpg" style="width:50%">
-                     </a>
-        </div>    
-                      
-                           <!--JavaScript-->
-                             <script>
-                           var myIndex = 0;
-                           carousel();
-                    function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < x.length; i++) {
-                       x[i].style.display = "none";  
-                         }
-                       myIndex++;
-                    if (myIndex > x.length) {myIndex = 1}    
-                       x[myIndex-1].style.display = "block";  
-                    setTimeout(carousel, 2000); 
-                         }
-                             </script>    
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+    <a href="pub1.html">
+       <img src="<?php bloginfo('template_directory'); ?>/img/p1.jpg" style="width:100%">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <a href="pub2.html">
+      <img  src="<?php bloginfo('template_directory'); ?>/img/p2.jpg" style="width:100%">
+    </a>
+  </div>
+
+  <div class="mySlides">
+    <a href="pub3.html">
+      <img align="center"  src="<?php bloginfo('template_directory'); ?>/img/p3.jpg" style="width:100%">
+    </a>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<br><br><br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
 
 <br><br><br>
 
