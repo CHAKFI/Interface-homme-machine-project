@@ -81,13 +81,13 @@
 
   <div class="mySlides">
     <a href="pub2.html">
-      <img  src="<?php bloginfo('template_directory'); ?>/img/p2.jpg" style="width:100%">
+      <img src="<?php bloginfo('template_directory'); ?>/img/p2.jpg" style="width:100%">
     </a>
   </div>
 
   <div class="mySlides">
     <a href="pub3.html">
-      <img align="center"  src="<?php bloginfo('template_directory'); ?>/img/p3.jpg" style="width:100%">
+      <img src="<?php bloginfo('template_directory'); ?>/img/p3.jpg" style="width:100%">
     </a>
   </div>
 
