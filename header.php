@@ -16,10 +16,10 @@
 <body>
 
    <!-- les logos -->
-   <div>
+   
    <a href="http://www.ucd.ac.ma"><img id='ucd' src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img></a>
    <a href="index.php"><img id='estsb' src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
-   </div>
+   
 
 
    <!-- navbar réf: http://www.estsb.ucd.ac.ma -->
