@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="<?php  echo get_template_directory_uri().'/STL.css'?>">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
   
 </head>
@@ -19,7 +20,6 @@
    
    <a href="http://www.ucd.ac.ma"><img id='ucd' src="<?php bloginfo('template_directory'); ?>/img/ucd.png""></img></a>
    <a href="index.php"><img id='estsb' src="<?php bloginfo('template_directory'); ?>/img/estsb1.png""></img></a>
-   
 
 
    <!-- navbar réf: http://www.estsb.ucd.ac.ma -->
@@ -71,15 +71,15 @@
 <br><br><br>
 
  <!-- Le centre de site web -->
-        <div align="center" >
+ <div align="center" >
                      <a href="pub1.html">
-                     	<img style="border-style: dotted; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/pub1.jpg" style="width:50%">
+                     	<img style="border-style: groove; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/p1.jpg" style="width:50%">
                      </a>
                      <a href="pub2.html">
-                     	<img style="border-style: dotted; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/pub2.jpg" style="width:50%">
+                     	<img style="border-style: groove; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/p2.jpg" style="width:50%">
                      </a>
                      <a href="pub3.html">
-                     	<img style="border-style: dotted; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/pub3.jpg" style="width:50%">
+                     	<img style="border-style: groove; border-color: grey;" align="center" class="mySlides" src="<?php bloginfo('template_directory'); ?>/img/p3.jpg" style="width:50%">
                      </a>
         </div>    
                       
@@ -98,7 +98,7 @@
                        x[myIndex-1].style.display = "block";  
                     setTimeout(carousel, 2000); 
                          }
-                             </script>
+                             </script>    
 
 <br><br><br>
 
