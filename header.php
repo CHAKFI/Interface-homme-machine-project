@@ -68,25 +68,25 @@
 </div>
  
 
-<br><br><br>
+<br><br><br><br><br><br><br>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides">
-    <a href="pub1.html">
+    <a href="pub1.php">
        <img src="<?php bloginfo('template_directory'); ?>/img/p1.jpg" style="width:100%">
     </a>
   </div>
 
   <div class="mySlides">
-    <a href="pub2.html">
+    <a href="pub2.php">
       <img src="<?php bloginfo('template_directory'); ?>/img/p2.jpg" style="width:100%">
     </a>
   </div>
 
   <div class="mySlides">
-    <a href="pub3.html">
+    <a href="pub3.php">
       <img src="<?php bloginfo('template_directory'); ?>/img/p3.jpg" style="width:100%">
     </a>
   </div>
